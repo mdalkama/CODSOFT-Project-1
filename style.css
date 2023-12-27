@@ -16,7 +16,6 @@ header{
     display: grid;
     background-size: cover;
     background-image:  url(header-background.avif);
-    background-color: red;
     grid-template-rows: 60px auto;
     
 }
