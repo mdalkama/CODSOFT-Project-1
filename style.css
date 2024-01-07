@@ -439,7 +439,7 @@ font-weight: 700;
     overflow: hidden;
 }
 #contact .right img{
-height: 100%;
+height: 60%;
 }
 
 @media only screen and (max-width: 800px) {
