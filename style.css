@@ -448,7 +448,45 @@ font-weight: 700;
 height: 60%;
 
 }
+.footer {
+    height: 110px;
+    overflow: hidden;
+background-color: #56565600;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+.footer .top{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin: 10px 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    transform: translate(50%) rotate(45deg) ;
+}
+.top a .ri-arrow-up-circle-fill {
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    transform: rotate(315deg) translateX(-90%) translateY(-75%);
 
+}
+
+
+.footer p{
+    width: 100%;
+    color: white;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+.top p{
+    color: black;
+    transform: rotate(315deg) translateX(-8%) translateY(-15%);
+}
 @media only screen and (max-width: 800px) {
     .nav-menu{
         display: ;
