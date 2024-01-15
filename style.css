@@ -306,7 +306,7 @@ main .card:hover{
     background-size: cover;
 }
 .main-project .card:nth-child(2){
-    background-image: url(project-1.png);
+    background-image: url(project-2.png);
     background-size: cover;
 }
 .main-project .card:nth-child(3){
